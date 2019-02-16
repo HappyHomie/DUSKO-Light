@@ -6,8 +6,11 @@
 
 .side {
     display: grid;
+
+    /* grid-template-rows: 10% 20% 40% 30%;
+    grid-template-columns: 55% 10% 35% */
     grid-template-rows: 75px 150px 250px 400px;
-    grid-template-columns: 550px 100px 370px;
+    grid-template-columns: 550px 50px 420px;
     margin: 10px;
     grid-gap: 10px; 
 }
@@ -23,7 +26,7 @@
     height: 50px;
     margin: 1em;
     font-family: Verdana;
-    font-style: bold;
+    font-weight: bold;
     /* justify-content: space-around; */
 }
 
@@ -38,7 +41,7 @@
     grid-row: 1 / 5;
     grid-column: 2 / 4;
     margin-top: 30px;
-    margin-right: 40px;
+    margin-right: 10px;
     z-index: -1;
     background-color: #484848;
 }
@@ -47,8 +50,35 @@
     grid-column: 2 / 4;
     z-index: 1;
     font-family: Verdana;
-    font-style: bold;
+    font-weight: bold;
     color: white;
-
-
+}
+.explore {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    background-color: black;
+    color: white;
+    height: 30px;
+    font-family: Verdana;
+    font-weight: bold;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    padding: 10px 20px;
+}
+.text {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+.selection{
+    grid-row: 4 / 5;
+    grid-column: 1 / 2;
+    font-family: Verdana;
+    font-weight: bold;
+    
 }
