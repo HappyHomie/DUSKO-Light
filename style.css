@@ -6,13 +6,12 @@
 
 .side {
     display: grid;
-
     /* grid-template-rows: 10% 20% 40% 30%;
     grid-template-columns: 55% 10% 35% */
-    grid-template-rows: 75px 150px 250px 400px;
+    grid-template-rows: 75px 150px 250px 100px 400px;
     grid-template-columns: 550px 50px 420px;
     margin: 10px;
-    grid-gap: 10px; 
+    grid-gap: 10px;  
 }
 
 .header-container {
@@ -38,7 +37,7 @@
     z-index: 0;
 }
 .background-container{
-    grid-row: 1 / 5;
+    grid-row: 1 / 6;
     grid-column: 2 / 4;
     margin-top: 30px;
     margin-right: 10px;
@@ -80,5 +79,22 @@
     grid-column: 1 / 2;
     font-family: Verdana;
     font-weight: bold;
+    display: flex;
+    align-self: center;
+}
+.img-container{
+    grid-row: 5 / 6;
+    grid-column: 1 / 2;
+    display: inline-block;
+}
+.womenshirt {
+    height: 40%;
+    width: 30%;
+    padding: 5px;
     
+}
+.menshirt {
+    height: 40%;
+    width: 30%;
+    padding: 5px;
 }
