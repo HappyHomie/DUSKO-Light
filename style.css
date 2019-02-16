@@ -6,8 +6,6 @@
 
 .side {
     display: grid;
-    /* grid-template-rows: 10% 20% 40% 30%;
-    grid-template-columns: 55% 10% 35% */
     grid-template-rows: 75px 150px 250px 100px 400px;
     grid-template-columns: 550px 50px 420px;
     margin: 10px;
